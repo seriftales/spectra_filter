@@ -1,6 +1,6 @@
-# SpectraFilter
+# Spectra Filter
 
-SpectraFilter, OpenCV ve HSV renk uzayını kullanarak girdi olarak verilen statik bir görüntüden belirli renk bantlarını  ayrıştıran ve mantıksal maskeleme  ile izole eden bir Computer Vision projesidir.
+Spectra Filter, OpenCV ve HSV renk uzayını kullanarak girdi olarak verilen statik bir görüntüden belirli renk bantlarını  ayrıştıran ve mantıksal maskeleme  ile izole eden bir Computer Vision projesidir.
 
 Proje, renk tespitlerini tek bir ekranda göstermek yerine her bir renk kanalını kendi izole penceresinde filtreleyerek detaylı bir spektrum analizi sunar.
 
@@ -16,8 +16,8 @@ Sistem bağımlılıklarının çakışmaması için projenin izole bir Python s
 
 1. **Depoyu Klonlayın:**
    ```bash
-   git clone [https://github.com/seriftales/SpectraFilter.git](https://github.com/seriftales/SpectraFilter.git)
-   cd SpectraFilter
+   git clone [https://github.com/seriftales/spectra_filter.git](https://github.com/seriftales/spectra_filter.git)
+   cd spectra_filter
    ```
 2. **Sanal Ortam Oluşturun ve Aktif Edin:**
    ```bash
@@ -46,7 +46,7 @@ Görüntü işleme tamamlandığında uygulamadan çıkmak için aktif pencere �
 ##  Dizin Yapısı
 
 ```text 
-SpectraFilter/
+spectra_filter/
 ├── app/
 │   ├── __init__.py          # Paketleyici
 │   ├── image_process.py     # HSV dönüşümü, bitwise maskeleme ve renk filtreleme algoritmaları
