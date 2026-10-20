@@ -10,7 +10,7 @@ Proje, renk tespitlerini tek bir ekranda göstermek yerine her bir renk kanalın
 * **Dinamik Konfigürasyon:** Renk algılama sınırları koda gömülmek yerine `config.toml` dosyasından okunur.
 * **Merkezi Loglama:** Eksik veri, hatalı dosya yolu veya bozuk donanım durumunda sistem sessizce çökmek yerine `loguru` üzerinden hatayı detaylandırarak güvenli çıkış yapar.
 
-##  Kurulum (Ubuntu / Linux)
+##  Kurulum 
 
 Sistem bağımlılıklarının çakışmaması için projenin izole bir Python sanal ortamında (venv) çalıştırılması önerilir.
 
